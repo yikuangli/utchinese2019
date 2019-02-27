@@ -12,10 +12,21 @@ class HelloWorld(Resource):
 class CreateUser(Resource):
     def post(self):
         pass
+        
 
-class     
+
+class ShowUsers(Resource):
+    """
+        This is a test class, calling this resource to get list of register user.
+    """
+
+    def get(self):
+        pass
+
+
+
 
 api.add_resource(HelloWorld, '/')
-
+api.add_resource(CreateUser, '/register')
 if __name__ == '__main__':
     app.run(debug=True)

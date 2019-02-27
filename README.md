@@ -1,9 +1,10 @@
 # utchinese2019
 
 To set up and install environments.
-#### Install venv(For detailed installation guide: https://virtualenv.pypa.io/en/latest/installation/)
+#### Install and setup venv(For detailed installation guide: https://virtualenv.pypa.io/en/latest/installation/)
 ```
 pip install virtualenv
+virtualenv venv
 ```
 #### Activate virtualenv
 
